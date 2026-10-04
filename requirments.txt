@@ -1,0 +1,9 @@
+streamlit
+altair
+qiskit
+qiskit-aer
+numpy
+pandas
+cryptography
+kyber-py
+dilithium-py
