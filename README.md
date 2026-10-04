@@ -20,8 +20,24 @@ QuantumShield is a small Streamlit app, built with Qiskit, that shows this whole
 ## Run it
 
 ```
-pip install -r requirements.txt
-streamlit run app.py
+## Run it yourself
+
+You need Python 3.10 or newer.
+
+**Option A: with git**
+```
+git clone https://github.com/abinash939-pixel/QuantumShield.git
+cd QuantumShield
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+**Option B: without git**
+1. On the repo page click **Code**, then **Download ZIP**, and unzip it.
+2. Open a terminal inside the folder that contains `app.py`. The ZIP may unzip into a folder inside a folder, so go into the inner one with `cd QuantumShield-main`.
+3. Run `python -m pip install -r requirements.txt` (the first time takes a few minutes).
+4. Run `python -m streamlit run app.py`.
+
 ```
 
 Then open http://localhost:8501. The Scan tab needs internet; it also has a built-in saved snapshot for offline use.
